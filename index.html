@@ -27,17 +27,12 @@
   
   /* Title of the resume */
   h1 {
-      font-size: 55px;
+      font-size: 50px;
       color: #757575;
-      text-align:center;
+      text-align:left;
       margin-bottom:15px;
   }
-  h1:hover {
-      background-color: #757575;
-      color: #FFFFFF;
-      text-shadow: 1px 1px 1px #333;
-  }
-  
+ 
   /* Titles of categories */
   h2 {
       /* This is called "sectioncolor" in the ConTeXt stylesheet. */
@@ -76,7 +71,7 @@
   
   /* Blockquotes */
   blockquote {
-      text-align: center
+      text-align: left
   }
   
   /* Links */
@@ -100,24 +95,46 @@
       width: 100%;
   }
   </style>
+ <style type="text/css">
+/*
+   crop image using a round shape
+*/
+       .img-circle {
+        border-radius: 50%;
+	float:right
+    }
+/*
+   scratch: 
+<div id="headerPicture"></div>
+
+	<img class="img-circle" src="cropped_oliver_rounded.png" width="150" height="150">
+   image on the left in the same header as the title
+*/
+       #headerPicture{
+	float:left
+       }
+ </style>
+
 </head>
 <body>
-<h1 id="dr.-oliver-lopez">Dr. Oliver Lopez</h1>
-<hr />
-<blockquote>
+<img class="img-circle" src="cropped_oliver_rounded.png" width="150" height="150">
+<h1 id="dr.-oliver-lopez">Oliver Lopez</h1> 
 <p><script type="text/javascript">
 <!--
 h='&#x6b;&#x61;&#x75;&#x73;&#116;&#46;&#x65;&#100;&#x75;&#46;&#x73;&#x61;';a='&#64;';n='&#x6f;&#108;&#x69;&#118;&#x65;&#114;&#46;&#108;&#x6f;&#112;&#x65;&#122;';e=n+a+h;
 document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
 // -->
-</script><noscript>&#x6f;&#108;&#x69;&#118;&#x65;&#114;&#46;&#108;&#x6f;&#112;&#x65;&#122;&#32;&#x61;&#116;&#32;&#x6b;&#x61;&#x75;&#x73;&#116;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#100;&#x75;&#32;&#100;&#x6f;&#116;&#32;&#x73;&#x61;</noscript> • +966544701644</p>
-</blockquote>
+</script><noscript>&#x6f;&#108;&#x69;&#118;&#x65;&#114;&#46;&#108;&#x6f;&#112;&#x65;&#122;&#32;&#x61;&#116;&#32;&#x6b;&#x61;&#x75;&#x73;&#116;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#100;&#x75;&#32;&#100;&#x6f;&#116;&#32;&#x73;&#x61;</noscript> </p>
+<br />
+<p>Environmental scientist with expertise in geospatial satellite data and modeling to support research in hydrology. More than five years of experience with several scientific computing languages (C, FORTRAN, Matlab, Python, R); competent user of high performance computing infrastructure. Proven written and communication skills; published in academic journals related to environmental research.</p>
+<hr />
+<!--
 <blockquote>
 <p>4700 KAUST, Thuwal, Saudi Arabia</p>
 </blockquote>
 <hr />
 <h2 id="professional-profile">Professional profile</h2>
-<p>Environmental scientist with expertise in geospatial satellite data and modeling to support research in hydrology. More than five years of experience with several scientific computing languages (C, FORTRAN, Matlab, Python, R); competent user of high performance computing infrastructure. Proven written and communication skills; published in academic journals related to environmental research.</p>
+// -->
 <h2 id="research-experience">Research experience</h2>
 <p><strong>2018 - present</strong></p>
 <p>King Abdullah University of Science and Technology, Thuwal, Saudi Arabia</p>
