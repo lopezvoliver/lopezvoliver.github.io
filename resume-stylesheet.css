@@ -1154,3 +1154,11 @@ sub {
 .author {
     display: none
 }
+
+.img-circle {
+    border-radius: 50%;
+	float:right
+}
+#headerPicture{
+    float:left
+}
